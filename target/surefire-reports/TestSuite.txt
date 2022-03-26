@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 67.569 s <<< FAILURE! - in TestSuite
+com.inetBankingV1.testCases.TC_AddCustomerTest_003.addNewCustomer  Time elapsed: 25.179 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"*[name='name']"}
+  (Session info: chrome=99.0.4844.84)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'UDAY', ip: '192.168.0.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [35fb8d272c6b59b612c98d30cf3eba47, findElement {using=name, value=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Uday\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54209}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54209/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 35fb8d272c6b59b612c98d30cf3eba47
+	at com.inetBankingV1.testCases.TC_AddCustomerTest_003.addNewCustomer(TC_AddCustomerTest_003.java:30)
+
